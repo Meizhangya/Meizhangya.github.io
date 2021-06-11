@@ -33,8 +33,8 @@
   mashiro_option.email_name = "";
   mashiro_option.cookie_version_control = "";
   mashiro_option.qzone_autocomplete = false;
-  mashiro_option.site_name = "没长牙のblog";
-  mashiro_option.author_name = "のblog";
+  mashiro_option.site_name = "君の名は没长牙";
+  mashiro_option.author_name = "没长牙";
   mashiro_option.site_url = "";
   mashiro_option.v_appId = "ml9miXPvkLuVMHL7tyx4vCnF-gzGzoHsz";
   mashiro_option.v_appKey = "1F5BLJ1CQzINE5iI6i6eXQ8o";
@@ -87,7 +87,7 @@
             
               
                 <li>
-                  <a href="https://github.com/Meizhangya" target="_blank" class="social-github" title="github">
+                  <a href="https://github.com/Meizhangya" target="_blank" class="social-github" title="gitee">
                     <img src="https://cdn.jsdelivr.net/gh/Meizhangya/cdn@1.2/images/icon/github.svg">
                   </a>
                 </li>
@@ -163,8 +163,8 @@
       <span class="site-title">
         <span class="logolink moe-mashiro">
           <a href="/">
-            <span class="sakurasono">没长牙</span>
-            <span class="shironeko">のblog</span>
+            <span class="sakurasono">君の名は</span>
+            <span class="shironeko">没长牙</span>
           </a>
         </span>
       </span>
@@ -665,12 +665,11 @@ $(document).ready(function() {
  </div>
 
 </div>
-
   <div id="mo-nav" class="">
   <div class="m-avatar">
     <img src="https://cdn.jsdelivr.net/gh/Meizhangya/CDN@1.1/images/tx.jpg">
   </div>
-  <p style="text-align: center; color: #333; font-weight: 900; font-family: 'Ubuntu', sans-serif; letter-spacing: 1.5px">没长牙のblog</p>
+  <p style="text-align: center; color: #333; font-weight: 900; font-family: 'Ubuntu', sans-serif; letter-spacing: 1.5px">君の名は没长牙</p>
   <p style="text-align: center; word-spacing: 20px;">
     
       
@@ -951,8 +950,6 @@ $(document).ready(function() {
 
 <!-- 《页面点击小红心 -->
 
-​    <script type="text/javascript" src="/js/love.js"></script>
-
 <!-- 页面点击小红心》 -->
 
 <!--单击显示文字-->
@@ -962,6 +959,11 @@ $(document).ready(function() {
 
 
 <!--鼠标点击烟花爆炸效果，需要引入jQuery-->
+
+
+    <canvas class="fireworks" style="position: fixed;left: 0;top: 0;z-index: 1; pointer-events: none;" ></canvas> 
+    <script type="text/javascript" src="//cdn.bootcss.com/animejs/2.2.0/anime.min.js"></script> 
+    <script type="text/javascript" src="/js/fireworks.js"></script>
 
 
 <!--动态线条背景-->
@@ -974,7 +976,7 @@ $(document).ready(function() {
 
 
 <!--浏览器搞笑标题-->
-<script type="text/javascript" src="/js/FunnyTitle.js"></script>
+<!--<script type="text/javascript" src="/js/FunnyTitle.js"></script>-->
 
 </body>
 </html>
