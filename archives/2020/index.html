@@ -1038,7 +1038,7 @@ $(document).ready(function() {
     line-height: 18px !important;
   }
   .aplayer .aplayer-lrc p.aplayer-lrc-current{
-    color: #FF1493;
+    color: #ff6633;
   }
   .aplayer.aplayer-narrow .aplayer-body{
     left: -66px !important;
@@ -1051,7 +1051,7 @@ $(document).ready(function() {
   }
   .aplayer.aplayer-fixed .lrc-show {
     display: block;
-    background: rgba(255, 255, 255, 0.8);
+    background: rgba(255, 255, 255, 0.1);
   }
 </style>
 <meting-js
@@ -1077,6 +1077,12 @@ $(document).ready(function() {
     volume="0.7"
 
     mutex="true"
+
+    lrctype="0"
+
+    listmaxheight="240px"
+
+    theme="green"
 
 </meting-js>
 <script>
@@ -1116,12 +1122,6 @@ $(document).ready(function() {
 
 
 <!--动态线条背景-->
-
-
-    <script type="text/javascript" color="50, 50, 50" opacity="0.5" 
-        zIndex="-1" count="99" 
-        src="//cdn.bootcss.com/canvas-nest.js/1.0.0/canvas-nest.min.js">
-    </script>
 
 
 <!--浏览器搞笑标题-->
